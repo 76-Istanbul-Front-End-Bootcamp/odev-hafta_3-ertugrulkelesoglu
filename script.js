@@ -6,7 +6,7 @@ Animal.prototype.action = function(){
   document.getElementById(this.actionSoundName).play();
   
 }
-
+//deneme
 Animal.prototype.putInTheDocument = function(){
     var petsTable = document.getElementById("petsTable");
     var petTR = document.createElement("tr");
